@@ -6,7 +6,7 @@
         id        = "mob.app.dev.lifecycle"
         version   = "1.0.0">
 
-    <name>Application Lifecycle Test</name>
+    <name>Uni App</name>
 
     <description>
         A sample application that counts the occurances of lifecycle events.
@@ -18,7 +18,15 @@
 
     <preference name="phonegap-version" value="cli-7.0.1" />
 	
-    <preference name="permissions"                value="none"/>   
+    <preference name="permissions"                value="none"/>  
+    
+    
+    
+    <icon src="res/icon/ios/logo-57.png"            gap:platform="ios"        width="57" height="57" />
+    <icon src="res/icon/ios/logo-72.png"            gap:platform="ios"        width="72" height="72" />
+    <icon src="res/icon/ios/logo-57-2x.png"         gap:platform="ios"        width="114" height="114" />
+    <icon src="res/icon/ios/logo-72-2x.png"         gap:platform="ios"        width="144" height="144" />
+    
 	
 	<access origin="*"/>
    	<plugin name="cordova-plugin-whitelist" version="1" />
